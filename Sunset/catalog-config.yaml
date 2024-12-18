@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sunset
+  description: A beautiful image showing Sunset.
+  annotations:
+    github.com/dataset-url: 
+    # github.com/column-names:  
+  tags:
+    - images
+    - sunset
+spec:
+  type: dataset
+  lifecycle: experimental
+  owner: Guest
